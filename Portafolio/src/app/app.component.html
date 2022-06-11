@@ -1,16 +1,19 @@
 <header id="Inicio">
   <nav class="derecha">
-    <ul>
+    <ul >
+      |
       <li>
         <a [routerLink]="['/']" routerLinkActive="router-link-active" >
           Inicio
         </a>
       </li>
+      |
       <li>
         <a [routerLink]="['/skills']" >
           Mis Skills
         </a>
       </li>
+      |
     </ul>
   </nav>
   <label class="centrar">
@@ -21,10 +24,4 @@
   <section id="principal">
     <router-outlet></router-outlet>
   </section>
-  <aside>
-    <h2 class="centrar">
-      Noticias
-    </h2>
-    <hr>
-  </aside>
 </main>
