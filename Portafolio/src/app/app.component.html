@@ -1,0 +1,27 @@
+<header id="Inicio">
+  <nav class="derecha">
+    <ul >
+      |
+      <li>
+        <a [routerLink]="['/']" routerLinkActive="router-link-active" >
+          Inicio
+        </a>
+      </li>
+      |
+      <li>
+        <a [routerLink]="['/skills']" >
+          Mis Skills
+        </a>
+      </li>
+      |
+    </ul>
+  </nav>
+  <label class="centrar">
+    PORTAFOLIO WEB DE <b> CARLOS IGNACIO OLANO MARES </b>
+  </label>
+</header>
+<main>
+  <section id="principal">
+    <router-outlet></router-outlet>
+  </section>
+</main>
